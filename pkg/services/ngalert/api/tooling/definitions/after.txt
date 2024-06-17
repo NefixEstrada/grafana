@@ -1,0 +1,79 @@
+goos: linux
+goarch: amd64
+pkg: github.com/grafana/grafana/pkg/services/ngalert/api/tooling/definitions
+cpu: AMD Ryzen 9 5950X 16-Core Processor            
+BenchmarkSortAlertsByImportance
+BenchmarkSortAlertsByImportance/n_1000_k_16
+BenchmarkSortAlertsByImportance/n_1000_k_16-32         	    1946	    612724 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_16-32         	    1904	    609578 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_16-32         	    1965	    619902 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_16-32         	    1986	    617693 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_16-32         	    1848	    617256 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100
+BenchmarkSortAlertsByImportance/n_1000_k_100-32        	    1989	    611557 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100-32        	    1942	    612931 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100-32        	    1890	    624915 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100-32        	    1927	    615417 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100-32        	    1947	    629034 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_1000
+BenchmarkSortAlertsByImportance/n_1000_k_1000-32       	    1914	    619446 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_1000-32       	    1938	    615133 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_1000-32       	    1940	    618911 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_1000-32       	    1975	    614988 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_1000-32       	    1984	    611389 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100000
+BenchmarkSortAlertsByImportance/n_1000_k_100000-32     	    1994	    616373 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100000-32     	    1978	    614178 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100000-32     	    1993	    611622 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100000-32     	    1969	    624307 ns/op
+BenchmarkSortAlertsByImportance/n_1000_k_100000-32     	    1996	    612678 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_16
+BenchmarkSortAlertsByImportance/n_10000_k_16-32        	     152	   7699099 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_16-32        	     154	   7945930 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_16-32        	     154	   7723839 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_16-32        	     151	   7881463 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_16-32        	     157	   7743956 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100
+BenchmarkSortAlertsByImportance/n_10000_k_100-32       	     151	   7909148 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100-32       	     151	   8151700 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100-32       	     150	   7904856 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100-32       	     150	   7859323 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100-32       	     154	   7825470 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_1000
+BenchmarkSortAlertsByImportance/n_10000_k_1000-32      	     150	   7927606 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_1000-32      	     152	   7921037 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_1000-32      	     139	   8375401 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_1000-32      	     141	   8485275 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_1000-32      	     148	   8018330 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100000
+BenchmarkSortAlertsByImportance/n_10000_k_100000-32    	     151	   8000682 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100000-32    	     146	   8311821 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100000-32    	     150	   8036915 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100000-32    	     153	   7837576 ns/op
+BenchmarkSortAlertsByImportance/n_10000_k_100000-32    	     146	   7929695 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_16
+BenchmarkSortAlertsByImportance/n_100000_k_16-32       	       8	 138805713 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_16-32       	       8	 139739889 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_16-32       	       8	 133991557 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_16-32       	       8	 133757521 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_16-32       	       8	 138926757 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100
+BenchmarkSortAlertsByImportance/n_100000_k_100-32      	       8	 136292323 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100-32      	       8	 133339331 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100-32      	       8	 138405531 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100-32      	       8	 141270150 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100-32      	       8	 148335582 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_1000
+BenchmarkSortAlertsByImportance/n_100000_k_1000-32     	       8	 135843274 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_1000-32     	       8	 134296368 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_1000-32     	       8	 143726085 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_1000-32     	       8	 137646600 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_1000-32     	       8	 136875542 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100000
+BenchmarkSortAlertsByImportance/n_100000_k_100000-32   	       8	 135194421 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100000-32   	       8	 134915049 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100000-32   	       8	 137541041 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100000-32   	       8	 138904186 ns/op
+BenchmarkSortAlertsByImportance/n_100000_k_100000-32   	       8	 136918371 ns/op
+PASS
+ok  	github.com/grafana/grafana/pkg/services/ngalert/api/tooling/definitions	565.896s
